@@ -30,12 +30,12 @@ public:
 
 Fl_Window *window;
 meBox *box;
-//The first letter of the class name should be 'C'
+
 class COscl : public CUserObj{
 public:
     //0.
     COscl():CUserObj(){
-        preConfig(0,2,4,1);
+        preConfig(0,2,4,0);
     };
 public:
     //1.
@@ -68,6 +68,5 @@ public:
 public:
 };
 
-//Trim the first letter 'C'
 //MFC style
 TRNTYPE(COscl,263)
