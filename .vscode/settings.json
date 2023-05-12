@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.f90": "FortranFreeForm",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "typeinfo": "cpp"
+    }
+}
