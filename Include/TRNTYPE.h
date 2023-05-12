@@ -1,3 +1,4 @@
+#include "stdlib.h"
 #include"TRNSYS.h"
 //
 
@@ -160,7 +161,7 @@ public:
 //TRNTYPE
 #define TRNTYPE(userObj,NUMBER) extern "C" __declspec(dllexport) void TYPE##NUMBER(void)\
 {\
-    C##userObj userclass;\
+    userObj userclass;\
 	if (getIsVersionSigningTime())\
 	{\
 		int v = userclass.version;\

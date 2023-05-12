@@ -5,6 +5,7 @@
 
 // --- Kernel subroutines ----------------------------------------------------------------------------------------------
 
+
 extern "C" __declspec(dllimport) void _cdecl FOUNDBADINPUT(int* Input, char* Severity, char* Message, size_t Sevlen, size_t Messlen);
 extern "C" __declspec(dllimport) void _cdecl FOUNDBADPARAMETER(int* Param, char* Severity, char* Message, size_t Sevlen, size_t Messlen);
 extern "C" __declspec(dllimport) void _cdecl INITREPORTINTEGRAL(int* index, char* intName, char* instUnit, char* intUnit, size_t LenName, size_t LenUnit, size_t LUnit2);
